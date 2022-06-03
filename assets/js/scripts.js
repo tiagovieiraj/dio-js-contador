@@ -23,7 +23,7 @@ function decrement() {
 }
 
 function increment() {
-    /* Condição para desabilitar o botão decrementar quando chegar ao valor -10 */
+    /* Condição para desabilitar o botão incrementar quando chegar ao valor 10 */
     if (currentNumber >= 10) {
         mostrarNaTela();
         btnIncrementar.style.display = 'none';
